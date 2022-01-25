@@ -8,8 +8,7 @@
 </head>
 <body>
     <div class="start_btn"><button>Begin Quiz!</button></div>
-    
-    <div class="info_box">
+    <div class="info_box activeInfo">
         <div class="info_title">
             <span><strong>In order to complete Quiz:</strong></span>
         </div>
@@ -23,8 +22,8 @@
             <div class="info"></div>
         </div>
         <div class="buttons">
-            <button class="Restart">Next</button>
-            <button class="Quit">Exit</button>
+            <button class="restart">Next</button>
+            <button class="quit">Exit</button>
             
         </div>
     </div>
@@ -50,30 +49,38 @@
 
            
                 <div class="option">
-                    <span>150</span>
+                    <span>10</span>
                     <i class="fas fa-check"></i>
                 
             </div>
 
 
                 <div class="option">
-                    <span>280</span>
+                    <span>15</span>
                     <i class="fas fa-check"></i>
                 
             </div>
 
 
                 <div class="option">
-                    <span>342</span>
+                    <span>50</span>
                     <i class="fas fa-check"></i>
                 </div>
             </section>
     <div class="result_box">
         <div class="title">Test complete
-
         </div>
-        
+        <div class="score_text">
+            <span>you got 4/4 correct!</span>
+        </div>
+        <div class="buttons">
+            <button class="restart">Again?</button>
+            <button class="Exit">Done</button>
+        </div>
     </div>
+    
     <script> src="https://kit.fontawesome.com/a076d05399.js"</script>
+    <script src="script.js"></script>
+    <script src="questions.js"></script>
 </body>
 </html>
